@@ -20,6 +20,11 @@ rule_files:
 scrape_configs:
   # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
   - job_name: 'prometheus'
+  - job_name: 'kotelna'
+    honor_labels: true
+    scrape_interval: 5s
+    static_configs:
+    - targets: ['kotelna:9292']
   - job_name: 'node'
 
     # Override the global default and scrape targets from this job every 5 seconds.

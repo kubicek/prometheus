@@ -1,0 +1,44 @@
+GIT
+  remote: https://github.com/kubicek/softplc.git
+  revision: 257e82e85d15fdc413a3cb19d4c87834a3afc039
+  specs:
+    softplc (0.0.1)
+      nokogiri
+      rest-client
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    domain_name (0.5.20170404)
+      unf (>= 0.0.5, < 1.0.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    mime-types (3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0521)
+    mini_portile2 (2.2.0)
+    netrc (0.11.0)
+    nokogiri (1.8.0)
+      mini_portile2 (~> 2.2.0)
+    prometheus-client (0.7.1)
+      quantile (~> 0.2.0)
+    quantile (0.2.0)
+    rack (2.0.3)
+    rest-client (2.0.2)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  prometheus-client
+  rack
+  softplc!
+
+BUNDLED WITH
+   1.14.6

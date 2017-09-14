@@ -28,6 +28,7 @@ services:
     links:
       - cadvisor:cadvisor
       - alertmanager:alertmanager
+      - kotelna:kotelna
     depends_on:
       - cadvisor
     networks:
@@ -95,3 +96,12 @@ services:
     networks:
       - back-tier
       - front-tier
+  kotelna:
+    build: ./kotelna
+    command: bundle exec rackup -o 0.0.0.0
+    expose:
+      - 9292
+    volumes:
+      - ./kotelna:/kotelna
+    networks:
+      - back-tier

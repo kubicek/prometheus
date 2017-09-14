@@ -1,0 +1,96 @@
+{
+  "room_temperature_celsius": {
+    "description": "Teploty ve stupnich",
+    "variables": [
+      {
+        "room": "obchod",
+        "uuid": "79bf8ff0-57aa-41a1-839b-3d9103fb02c9"
+      },
+      {
+        "room": "satny",
+        "uuid": "b5e05fcd-f776-48cc-beda-3f1ca07c310e"
+      },
+      {
+        "room": "banka",
+        "uuid": "bb5bd80a-9b59-41b3-8fef-c2c56190f944"
+      },
+      {
+        "room": "venku_dole",
+        "uuid": "fbe5d44f-a681-4044-8661-fe605a3fe30c"
+      },
+      {
+        "room": "nabeh_ulice",
+        "uuid": "f1233364-1d22-4758-bafe-842b691a5f8d"
+      },
+      {
+        "room": "nabeh_dvur",
+        "uuid": "2d308267-6a4e-46d2-9090-62bc154759b0"
+      },
+      {
+        "room": "nabeh_satny",
+        "uuid": "4a6ee965-a54c-476c-bbca-988799421a5b"
+      },
+      {
+        "room": "venku_nahore",
+        "uuid": "6aa42abf-96c0-4be7-b195-cd3952c0b719"
+      },
+      {
+        "room": "kotel_nabeh",
+        "uuid": "8fefe460-5862-42ba-a5c0-a96866761ba4"
+      },
+      {
+        "room": "nabeh_doma",
+        "uuid": "e75bd4dd-3b59-4fed-ae4a-4c623e5209e2"
+      },
+      {
+        "room": "teplota_TUV",
+        "uuid": "8a5573b0-2925-40f0-95bd-810393b3c5f0"
+      }
+    ]
+  },
+  "kotle": {
+    "description": "Stavy horaku",
+    "variables": [
+      {
+        "sensor": "pov_kotel_1_stupen_1",
+        "uuid": "e7b1b68b-9254-4f54-9327-314b5685f365"
+      },
+      {
+        "sensor": "pov_kotel_1_stupen_2",
+        "uuid": "8813a8b5-82e5-4f63-9196-075683a89dab"
+      },
+      {
+        "sensor": "pov_kotel_2_stupen_1",
+        "uuid": "404ae72c-349a-4838-983d-424122ec3066"
+      },
+      {
+        "sensor": "pov_kotel_2_stupen_2",
+        "uuid": "227ea8e8-59dc-4585-a54d-c45c64a9c3f1"
+      },
+      {
+        "sensor": "pov_kotel_3_stupen_1",
+        "uuid": "976322b1-2ab7-4bfe-a331-d3e10e2600b6"
+      },
+      {
+        "sensor": "pov_kotel_3_stupen_2",
+        "uuid": "55dd6c95-9332-4b6d-8b5d-e0f7701df51f"
+      },
+      {
+        "sensor": "pov_cerp_kotel_1",
+        "uuid": "b9f751df-7c1a-4968-a442-d4f9f962247a"
+      },
+      {
+        "sensor": "pov_cerp_kotel_2",
+        "uuid": "fd40ce49-6d6a-4d15-a515-de67e4764eea"
+      },
+      {
+        "sensor": "pov_cerp_kotel_3",
+        "uuid": "11e54e2e-30de-42a3-a932-814574ce388e"
+      },
+      {
+        "sensor": "pov_cerp_tuv",
+        "uuid": "7eacce29-37f1-4ae6-acb1-7f1c90fe0f87"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+gem 'softplc', :git => 'https://github.com/kubicek/softplc.git'
+gem 'prometheus-client'
+gem 'rack'
