@@ -5,4 +5,4 @@ credentials, configure _sensors.json_ and run
 
     docker-compose up
 
-Grafana dashboard runs on port 3000.
+Grafana dashboard runs on port 3000, you can import _kotelna_dashboard.json_ as sample dashboard.
